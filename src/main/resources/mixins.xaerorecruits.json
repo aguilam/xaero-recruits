@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.aguilam.xaerorecruits.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "MinimapHighlighterRegistryMixin",
+    "WorldMapHighlighterRegistryMixin",
+    "MinimapMixin",
+    "MapElementRenderHandlerBuilderMixin",
+    "GuiMapMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
